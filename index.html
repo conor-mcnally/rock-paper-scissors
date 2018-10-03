@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page Title</title>
+</head>
+<body>
+
+	<p></p>
+	<script>
+		var objects = ["Rock", "Paper", "Scissors"];
+
+		function computerPlay() {
+			//Randomly return rock/paper/scissors
+			var result = objects[Math.floor(Math.random()*objects.length)];
+			return result;
+		}
+		console.log(computerPlay());
+
+	</script>
+</body>
+</html>
